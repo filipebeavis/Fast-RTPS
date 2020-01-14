@@ -51,7 +51,6 @@ public:
         }
   }
 };
->>>>>>> intraprocess delivery ported to master
 
 // Test created to check bug #3020 (Github ros2/demos #238)
 TEST_P(Volatile, PubSubAsReliableVolatilePubRemoveWithoutSubs)

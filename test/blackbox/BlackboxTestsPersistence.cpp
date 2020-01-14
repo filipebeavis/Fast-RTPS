@@ -295,9 +295,6 @@ TEST_P(Persistence, AsyncRTPSAsReliableWithPersistence)
     std::cout << "Second round finished." << std::endl;
 }
 
-<<<<<<< HEAD
-#endif
-=======
 INSTANTIATE_TEST_CASE_P(Persistence,
         Persistence,
         testing::Values(false, true),
@@ -308,4 +305,5 @@ INSTANTIATE_TEST_CASE_P(Persistence,
             }
             return "NonIntraprocess";
         });
->>>>>>> intraprocess delivery ported to master
+
+#endif
